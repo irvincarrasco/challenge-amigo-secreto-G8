@@ -1,5 +1,7 @@
-let amigos = [];
+//Declaración de variables let vs constvs var 
 
+let amigos = [];
+// bloque de funcionenes para regsitro de nombres en el array
 function asignarTextoElemento(elemento, texto) {
     let elementoHTML = document.querySelector(elemento);
     elementoHTML.innerHTML = texto;
@@ -23,7 +25,8 @@ function agregarAmigo() {
     actualizarLista();
     input.value = "";
 }
-//Función chat gpt
+
+//Función chat gpt 
 function actualizarLista() { 
     let lista = document.getElementById("listaAmigos");
     lista.innerHTML = "";
